@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:theme="@style/AppTheme">
+
+    <item
+        android:id="@+id/overflowMenu"
+        android:icon="@drawable/ic_baseline_menu_24"
+        android:title=""
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/list"
+                android:icon="@drawable/ic_baseline_home_24"
+                android:title="Home"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/grid"
+                android:icon="@drawable/ic_baseline_grid_on_24"
+                android:title="Makanan Ringan Lainnya"
+                app:showAsAction="never" />
+<!--            <item-->
+<!--                android:id="@+id/catat"-->
+<!--                android:icon="@drawable/ic_baseline_event_note_24"-->
+<!--                android:title="Catatan"-->
+<!--                app:showAsAction="never" />-->
+            <item
+                android:id="@+id/dial_number"
+                android:icon="@drawable/ic_baseline_contacts_24"
+                android:title="Kontak Pemesanan"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/exit"
+                android:icon="@drawable/ic_baseline_exit_to_app_24"
+                android:title="Keluar"
+                app:showAsAction="never" />
+
+        </menu>
+    </item>
+</menu>

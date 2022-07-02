@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#A267AC"
+    android:theme="@style/AppTheme.NoActionBar"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY" />
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background"
+        android:backgroundTint="#6E5773">
+        <TextView
+            android:textStyle="bold"
+            android:text="Perkenalan"
+            android:textSize="22dp"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="20dp"
+            android:paddingLeft="13dp"
+            android:layout_marginLeft="20dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background"
+            android:backgroundTint="#CE7BB0">
+            <TextView
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:text="\nHallo, perkenalkan nama Saya Rani Rantika, bisa dipanggil Rani. Saya merupakan seorang remaja kelahiran Cirebon yang dikenal sebagai Kota udang.\nSaya merupakan anak kedua dari 2 bersaudara pada keluarga yang sederhana yang penuh suka cita.\n "
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+<!--    <LinearLayout-->
+<!--        android:layout_marginLeft="20dp"-->
+<!--        android:layout_marginBottom="10dp"-->
+<!--        android:layout_marginRight="20dp"-->
+<!--        android:gravity="center"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:layout_width="200dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:background="@drawable/background"-->
+<!--        android:backgroundTint="#6E5773">-->
+<!--        <TextView-->
+<!--            android:textStyle="bold"-->
+<!--            android:text="Riwayat Pendidikan"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"/>-->
+<!--    </LinearLayout>-->
+<!--    <LinearLayout-->
+<!--        android:layout_marginBottom="10dp"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:layout_marginRight="20dp"-->
+<!--        android:layout_marginLeft="20dp"-->
+<!--        android:gravity="center"-->
+<!--        android:layout_width="200dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:background="@drawable/background"-->
+<!--        android:backgroundTint="#CE7BB0">-->
+<!--        <TextView-->
+<!--            android:textStyle="bold"-->
+<!--            android:text="MTs Nurul Huda Munjul"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"/>-->
+<!--    </LinearLayout>-->
+<!--    <LinearLayout-->
+<!--        android:layout_marginBottom="20dp"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:layout_marginRight="20dp"-->
+<!--        android:layout_marginLeft="60dp"-->
+<!--        android:gravity="center"-->
+<!--        android:layout_width="200dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:background="@drawable/background"-->
+<!--        android:backgroundTint="#CE7BB0">-->
+<!--        <TextView-->
+<!--            android:textStyle="bold"-->
+<!--            android:text="SMA Negeri 1 Lemahabang"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"/>-->
+<!--    </LinearLayout>-->
+<!--    <LinearLayout-->
+<!--        android:layout_marginBottom="20dp"-->
+<!--        android:layout_marginRight="20dp"-->
+<!--        android:layout_marginLeft="120dp"-->
+<!--        android:gravity="center"-->
+<!--        android:layout_width="200dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:background="@drawable/background"-->
+<!--        android:backgroundTint="#CE7BB0">-->
+<!--        <TextView-->
+<!--            android:textStyle="bold"-->
+<!--            android:text="Politeknik LP3I Bandung"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"/>-->
+<!--    </LinearLayout>-->
+</LinearLayout>
+
